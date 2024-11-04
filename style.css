@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+#clock {
+    border: 0px solid #2a66ac;
+    border-radius: 50%;
+    width: 30vw; 
+    height: 30vw; 
+    max-width: 260px; 
+    max-height: 260px; 
+    box-shadow: 20px 10px 1000px 60px #2366b3;
+    position: relative;
+}
+#text {
+    color: #fff;
+    font-size: 3vw; 
+    text-align: center; 
+    margin-top: 70px; 
+}
+/* Media Queries for additional adjustments on smaller screens */
+@media (max-width: 600px) {
+    #clock {
+        width: 50vw; 
+        height: 50vw; 
+    }
+
+    #text {
+        font-size: 8vw; 
+    }
+}
